@@ -43,6 +43,12 @@ var deps = {
 		deps: ['GridLayer']
 	},
 
+	MapsMdLayer: {
+		src: ['layer/tile/MapsMdLayer.js'],
+		desc: 'The base class for displaying maps.md tiles layer on the map.',
+		deps: ['GridLayer']
+	},
+
 	TileLayerWMS: {
 		src: ['layer/tile/TileLayer.WMS.js'],
 		desc: 'WMS tile layer.',
